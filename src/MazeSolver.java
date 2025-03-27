@@ -1,3 +1,4 @@
+// MazeSolver by Carter Techel
 /**
  * Solves the given maze using DFS or BFS
  * @author Ms. Namasivayam

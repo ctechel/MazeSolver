@@ -1,3 +1,4 @@
+// MazeSolver by Carter Techel
 /**
  * Creates a Maze made up of MazeCells
  * @author Ms. Namasivayam
@@ -146,7 +147,7 @@ public class Maze {
      * @return boolean true/false
      */
     public boolean isValidCell(int row, int col) {
-        // TODO: Complete this function
-        return true;
+        // If the cell is not explored and is not a wall return true
+        return (!mazeGrid[row][col].isExplored() && !mazeGrid[row][col].isWall());
     }
 }

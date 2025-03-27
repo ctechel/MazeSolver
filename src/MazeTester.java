@@ -1,3 +1,4 @@
+// MazeSolver by Carter Techel
 /**
  * A class to test our MazeSolver
  * @author: Nandhini Namasivayam
